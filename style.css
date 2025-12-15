@@ -12,101 +12,48 @@ html, body {
     width: 100%;
 }
 
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
 .navbar {
     background-color: white;
     z-index: 1;
     position: fixed;
     height: 90px;
     width: 100%;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: space-around;
     box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.2);
-
-}
-
-.nav1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .navbar img {
     width: 100px;
 }
 
-.logo {
-    cursor: pointer;
+.nav2 {
     display: flex;
+    gap: 20px;
     align-items: center;
-    justify-content: space-around;
-    gap: 50px;
 }
 
-.logo button {
-    width: 12vw;
-    height: 2.5vw;
-    border-radius: 50px;
-    border: 1px solid gray;
-    background-color: #347ab7;
-    color: white;
-
-}
-
-.icon {
-    display: flex;
-    gap: 25px;
-}
-.icon :hover{
-    transform: scale(1.05);
+.nav2 h4 {
+    font-weight: 400;
+    cursor: pointer;
 }
 
 .icon i {
-    cursor: pointer;
-
     font-size: 20px;
-    height: 40px;
-    width: 40px;
-    /* border: 1px solid black; */
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    background-color: #347ab7;
-    color: white;
-    display: flex;
-}
-
-.btn1 {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.btn1 i {
-    font-size: 17px;
-    padding-left: 13px;
-
-    text-align: center;
-}
-
-.nav2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 30px;
-    color: #4c4c4c;
-
-}
-.nav2 h4 span{
-    font-size: 10px;
-}
-.nav2 h4 {
-    font-weight: 200;
-    font-size: 15px;
+    color: #347ab7;
     cursor: pointer;
+    margin-left: 15px;
 }
+
 
 .navbar3 {
 
@@ -242,6 +189,7 @@ html, body {
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
     border-radius: 3px;
     overflow: hidden;
+
 }
 .box1 h2:hover{
     user-select: none;
@@ -332,6 +280,8 @@ html, body {
 
 .cinemacam {
     padding-top: 50px;
+    
+
 
 }
 
@@ -341,7 +291,6 @@ html, body {
     width: 98%;
     margin: auto;
     font-family: "Roboto", sans-serif;
-    ;
     font-size: 30px;
     font-weight: 250;
     display: flex;
@@ -818,3 +767,5 @@ html, body {
 
 
 }
+
+

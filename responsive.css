@@ -1,0 +1,315 @@
+/* =========================
+   MOBILE VIEW (max-width: 400px)
+========================= */
+@media (max-width: 400px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* ===== NAVBAR ===== */
+  .navbar {
+    height: auto;
+    /* flex-direction: column; */
+    padding: 10px;
+  }
+
+  .nav2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .nav2 h4 {
+    font-size: 13px;
+    display: none;
+  }
+
+  /* ===== INFO BAR ===== */
+  .navbar3 {
+    font-size: 12px;
+    height: auto;
+    padding: 8px;
+    text-align: center;
+  }
+
+  /* ===== PAGE 1 ===== */
+  .page1 {
+    height: auto;
+  }
+
+  .camera {
+    width: 90%;
+    height: auto;
+  }
+
+  .text {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .camerapng {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .box {
+    width: 100%;
+    height: 80px;
+    font-size: 3vw;
+    padding-top: 10px;
+  }
+
+  .box img {
+    width: 40px;
+  }
+
+  /* ===== GEAR ===== */
+  .professional h1{
+    font-size: 5vw;
+    padding: 20px;
+    width: 100%;
+    
+  }
+  .gear {
+    flex-direction: column;
+    width: 95%;
+    gap: 20px;
+  }
+
+  .gear-box1,
+  .gear-box2 {
+    width: 100%;
+
+    
+  }
+  .gear-box2 img{
+    overflow: hidden;
+  }
+  
+
+  /* ===== PAGE 2 & 3 ===== */
+  .page2,
+  .page3 {
+    height: auto;
+  }
+
+  .page2 h4,
+  .page3 h4 {
+    font-size: 18px;
+  }
+
+  .price {
+    flex-direction: column;
+    box-shadow: none;
+  }
+
+  .box1 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .box1 img {
+    width: 70%;
+    height: auto;
+  }
+
+  .price h2 {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  /* ===== PAGE 4 ===== */
+  .page4 h2{
+    padding: 30px;
+  }
+  .page4 {
+    width: 95%;
+    height: auto;
+  }
+
+  .works,
+  .promise {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .work1,
+  .work2,
+  .work3,
+  .promise1,
+  .promise2,
+  .promise3 {
+    padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+  }
+.work1 img{
+    width: 20vw;
+}
+.work2 img{
+    width: 20vw;
+}
+.work3 img{
+    width: 20vw;
+}
+.promise1 img{
+    width: 19vw;
+}
+.promise2 img{
+    width: 19vw;
+}
+.promise3 img{
+    width: 19vw;
+}
+
+
+  .work1 h4,
+  .promise1 h4 {
+    font-size: 16px;
+  }
+  .work2 h4,
+  .promise2 h4 {
+    font-size: 16px;
+  }
+  .work3 h4,
+  .promise3 h4 {
+    font-size: 16px;
+  }
+
+  .work1 p,
+  .promise1 p {
+    font-size: 13px;
+     font-weight: 300;
+
+  }
+  .work2 p,
+  .promise2 p {
+    font-size: 13px;
+     font-weight: 300;
+  }
+  .work3 p,
+  .promise3 p {
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .wedont{
+    padding: 30px;
+    font-size: 3.5vw;
+    width: 100%;
+  }
+
+  /* ===== PAGE 5 (Testimonials) ===== */
+
+
+  /* ===== PAGE 5 : TESTIMONIALS ===== */
+  .page5 {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .page5 h1 {
+    font-size: 18px;
+    padding: 15px 10px;
+  }
+
+  .container {
+    overflow-x: hidden;
+  }
+
+  .scroll-content {
+    animation-duration: 40s;
+  }
+
+  .container1 {
+    width: 280px;
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .container1 p {
+    font-size: 13px;
+    padding: 15px;
+  }
+
+  .container1 h1 {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  /* ===== PAGE 6 : CLIENT LOGOS ===== */
+  .page6 {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .page6 h1 {
+    font-size: 26px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .container2 {
+    height: auto;
+    gap: 5px;
+  
+  }
+
+  .container2 img {
+    height: 27vw;
+  }
+
+  /* ===== PAGE 7 : FOOTER ===== */
+  .page7 {
+    height: auto;
+  }
+
+  .footer1 {
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px 10px;
+    text-align: center;
+  }
+
+  .footer1 h1 {
+    font-size: 15px;
+  }
+
+  .footer1 button {
+    width: 160px;
+    height: 42px;
+    font-size: 14px;
+  }
+
+  .footer2 {
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .footer2 h1 {
+    font-size: 16px;
+  }
+
+  .content1 h4,
+  .content1 div {
+    font-size: 14px;
+  }
+
+  .icon11 {
+    justify-content: center;
+  }
+
+  .rights {
+    height: auto;
+    padding: 10px;
+  }
+
+  .rights h4 {
+    font-size: 12px;
+  }
+}
